@@ -6,7 +6,7 @@ import msgimage from "../assets/msgimage.png";
 import shield from "../assets/shield.png";
 import doctor from "../assets/doctor.png";
 import pres from "../assets/pres.png";
-
+import { RxHamburgerMenu } from "react-icons/rx";
 const Hero = ({isSmall}) => {
   
 
@@ -23,8 +23,9 @@ const Hero = ({isSmall}) => {
   return (
     <div className="flex flex-col min-h-[868px] max-h-fit ">
       {/* //navbar */}
-      <div className="bg-[#FFF7E2] h-[104px] sm:h-[80px] flex items-center justify-center">
+      <div className="bg-[#FFF7E2] relative h-[104px] sm:h-[80px] flex items-center justify-center">
         {isSmall && <img width={122} height={24} src={logo} />}
+        <div className="absolute left-7 text-xl text-[#3A643B]"><RxHamburgerMenu/></div>
       </div>
       {/* //image section */}
       <div className="md:flex relative">

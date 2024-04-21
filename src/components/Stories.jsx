@@ -13,7 +13,7 @@ function Stories({ isSmall }) {
           </div>
           <div className="bg-[#C3D0C4]  w-[55vw] h-[5px]"></div>
         </div>
-        <div className="w-11/12 flex gap-14 justify-center mt-10">
+        <div className="w-11/12 flex flex-wrap gap-14 justify-center mt-10">
           <Storycard
             cause={`Consulted for skin`}
             name={`Sophie Moore`}

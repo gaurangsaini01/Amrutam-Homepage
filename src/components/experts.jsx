@@ -2,6 +2,7 @@ import React from "react";
 import ExpertCard from "./ExpertCard";
 import { IoArrowBackOutline } from "react-icons/io5";
 import { IoArrowForwardOutline } from "react-icons/io5";
+import { MdNavigateNext } from "react-icons/md";
 
 function Experts({ isSmall }) {
   return (
@@ -20,13 +21,13 @@ function Experts({ isSmall }) {
             <IoArrowBackOutline />
           </div>
         )}
-        <div className="mx-auto flex gap-12">
+        <div className="mx-auto flex flex-wrap gap-12">
           <ExpertCard />
           {!isSmall && <ExpertCard />}
           {!isSmall && <ExpertCard />}
         </div>
         {!isSmall && (
-          <div className="w-[72px] h-[72px] rounded-full flex border-[1px] border-gray-400 text-gray-400 items-center justify-center text-4xl hover:cursor-pointer">
+          <div className="w-[72px]  h-[72px] rounded-full flex border-[1px] border-gray-400 text-gray-400 items-center justify-center text-4xl hover:cursor-pointer">
             <IoArrowForwardOutline />
           </div>
         )}
@@ -36,7 +37,7 @@ function Experts({ isSmall }) {
           <div className="w-[12px] h-[12px] rounded-full bg-[#C3C3C3]"></div>
           <div className="w-[12px] h-[12px] rounded-full bg-[#C3C3C3]"></div>
         </div>
-      
+        <div className=" flex items-center justify-center"><button className="rounded-md flex items-center justify-center gap-2 font-semibold text-[#3A643B] px-[25px] py-4 bg-[#DBE3DC63] border">Find more experts <span className="text-[24px]"><MdNavigateNext/></span></button></div>
     </div>
   );
 }
