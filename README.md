@@ -1,4 +1,4 @@
-# React + Vite
+# AMRUTAM HOMEPAGE
 
 This Project is made as an Internship Task from Amrutam Pharmaceuticals
 
