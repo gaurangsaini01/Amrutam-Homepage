@@ -31,6 +31,12 @@ function Experts({ isSmall }) {
           </div>
         )}
       </div>
+        <div className="flex gap-8 my-8 justify-center">
+          <div className="w-[12px] h-[12px] rounded-full bg-[#3A643B]"></div>
+          <div className="w-[12px] h-[12px] rounded-full bg-[#C3C3C3]"></div>
+          <div className="w-[12px] h-[12px] rounded-full bg-[#C3C3C3]"></div>
+        </div>
+      
     </div>
   );
 }
