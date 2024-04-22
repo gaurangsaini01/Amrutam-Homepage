@@ -7,14 +7,14 @@ const Approach = ({isSmall}) => {
       <div className=" flex flex-col pb items-center">
         <div className="flex flex-col mb-6 items-center justify-center">
           <div className="p-1 z-50">
-            <h1 className="text-3xl text-center  md:text-4xl lg:text-5xl text-[#3A643B] font-semibold">
+            <h1 className="text-3xl font-dinprobold text-center  md:text-4xl lg:text-5xl text-[#3A643B] font-semibold">
               Our Ayurvedic Approach
             </h1>
           </div>
           <div className="bg-[#C3D0C4]  w-[40vw] h-[5px]"></div>
         </div>
         <div className="md:w-[772px] w-10/12">
-          <p className="md:text-xl text-[14px] leading-7 text-center text-[#666666]">
+          <p className="md:text-xl text-[14px] font-dinpro leading-7 text-center text-[#666666]">
             At Amrutam we follow a unique and personalized approach to healing.
             Our expert practitioners begin each treatment process by conducting
             a thorough analysis of the patient's body type, medical history, and

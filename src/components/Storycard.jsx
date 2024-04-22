@@ -15,7 +15,7 @@ function Storycard({cause,name,location,heading,color}) {
             </div>
             <div>⭐⭐⭐⭐⭐</div>
             <div className='text-[22px] font-bold'>{heading}</div>
-            <div className='text-[18px] text-[#555555]'>Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl suscipit adipis.</div>
+            <div className='text-[18px] w-11/12 text-[#555555]'>Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl suscipit adipis.</div>
         </div>
     </div>
   )

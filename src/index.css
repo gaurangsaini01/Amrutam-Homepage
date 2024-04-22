@@ -2,6 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'GOTHAM';
+    src: url('../src/fonts/Gotham\ Rounded\ Bold.otf');
+}
+@font-face {
+    font-family: 'NUNITO';
+    src: url('../src/fonts/Nunito_Complete/Nunito_Complete/Fonts/TTF/Nunito-Variable.ttf');
+}
+
+@font-face {
+    font-family: 'NEXA-LIGHT';
+    src: url('../src/fonts/NexaLight/Nexa\ Light.otf');
+}
+@font-face {
+    font-family: 'DINPRO';
+    src: url('../src/fonts/dinpro/DINPro-Bold\ tr.ttf');
+    
+}
+@font-face{
+    font-family: 'DINPRO2';
+    src: url('../src/fonts/dinpro/DINPro-Medium\ tr.ttf');
+}
 
 *{margin: 0;padding: 0;box-sizing: border-box;}
 /* *{

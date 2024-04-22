@@ -5,7 +5,7 @@ import { RiCapsuleLine } from "react-icons/ri";
 
 function ExpertCard() {
   return (
-    <div className="pt-5 items-center flex flex-col overflow-hidden justify-between w-[295px] h-[400px] rounded-3xl shadow-xl bg-[#FFF7E2]">
+    <div className="pt-5 items-center flex flex-col overflow-hidden justify-between w-[250px] md:w-[295px] h-[400px] rounded-3xl shadow-xl bg-[#FFF7E2]">
       <div className="space-y-3">
         <div className=" relative w-[150px] mx-auto flex items-center justify-center h-[150px] rounded-full">
           <img
@@ -19,7 +19,7 @@ function ExpertCard() {
         </div>
         <div className="flex items-center w-[247px] h-[130px] flex-col ">
           <div className="flex items-center flex-col justify-evenly h-[151px]">
-            <p className="text-xl leading-[25px] font-medium">
+            <p className="text-xl font-gotham leading-[25px] font-medium">
               Dr. Vaishali Sharma
             </p>
             <p className="text-[15px] leading-5 text-[#838383]">
@@ -32,11 +32,11 @@ function ExpertCard() {
           </div>
           <div className="text-[#3A643B] mt-2 flex items-center gap-2 font-semibold bg-[#3A643B]/10 rounded-full py-1 px-4">
             <div><RiCapsuleLine /></div>
-            <div>Skin Specialist</div>
+            <div className="font-nunito">Skin Specialist</div>
           </div>
         </div>
       </div>
-      <div className="bg-[#3A643B] text-xl text-white w-full flex items-center justify-center h-[65px] text-center">Book A Session</div>
+      <div className="bg-[#3A643B] text-xl text-white w-full flex items-center justify-center h-[65px] text-center font-nunito">Book A Session</div>
     </div>
   );
 }

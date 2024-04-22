@@ -6,7 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-
+      fontFamily:{
+        'nexalight':['NEXA-LIGHT'],
+        'dinprobold':['DINPRO'],
+        'dinpro':['DINPRO2'],
+        'gotham':['GOTHAM'],
+        'nunito':['NUNITO']
+      }
     }
   },
   plugins: [],

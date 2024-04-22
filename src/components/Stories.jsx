@@ -7,7 +7,7 @@ function Stories({ isSmall }) {
       <div className=" flex flex-col pb items-center">
         <div className="flex flex-col mb-6 items-center justify-center">
           <div className="p-1 z-50">
-            <h1 className="text-3xl text-center  md:text-4xl lg:text-5xl text-[#3A643B] font-semibold">
+            <h1 className="text-3xl text-center font-dinprobold md:text-4xl lg:text-5xl text-[#3A643B] font-semibold">
               Stories from our valued customers!
             </h1>
           </div>

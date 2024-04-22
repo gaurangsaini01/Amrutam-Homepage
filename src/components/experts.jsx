@@ -9,7 +9,7 @@ function Experts({ isSmall }) {
     <div className="py-20 flex items-center flex-col">
       <div className="flex flex-col mb-6 items-center justify-center">
         <div className="p-1 z-50">
-          <h1 className="text-3xl text-center  md:text-4xl lg:text-5xl text-[#3A643B] font-semibold">
+          <h1 className="text-3xl text-center font-dinprobold md:text-4xl lg:text-5xl text-[#3A643B] font-semibold">
             Meet Our Ayurveda Experts!
           </h1>
         </div>
@@ -37,7 +37,7 @@ function Experts({ isSmall }) {
           <div className="w-[12px] h-[12px] rounded-full bg-[#C3C3C3]"></div>
           <div className="w-[12px] h-[12px] rounded-full bg-[#C3C3C3]"></div>
         </div>
-        <div className=" flex items-center justify-center"><button className="rounded-md flex items-center justify-center gap-2 font-semibold text-[#3A643B] px-[25px] py-4 bg-[#DBE3DC63] border">Find more experts <span className="text-[24px]"><MdNavigateNext/></span></button></div>
+        <div className=" flex items-center justify-center"><button className="rounded-md flex items-center justify-center gap-2  font-dinpro text-[#3A643B] px-[25px] py-4 bg-[#DBE3DC63] border">Find more experts <span className="text-[24px]"><MdNavigateNext/></span></button></div>
     </div>
   );
 }
